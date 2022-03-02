@@ -24,7 +24,7 @@
               vertical-align: middle;
           }
           
-     </style>
+      </style>
       <form id="form" autocomplete="off">
         <fieldset> 
           <legend>GIS Widget Properties</legend>

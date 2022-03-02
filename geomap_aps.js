@@ -24,26 +24,7 @@
               vertical-align: middle;
           }
           
-      </style>
-      <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
-    <script src="https://js.arcgis.com/4.22/"></script>
-    
-      <script>
-      require(["esri/config","esri/Map", "esri/views/MapView"], function (esriConfig,Map, MapView) {
-        esriConfig.apiKey = "AAPK278d62b8066740a7acd1dba583248937wv4oooCSLUilUhrZXYAGlOjd2N2UJxNR7G1HOHrEKnTFx5y81L-MBQZh65BQEOY_";
-
-        const map = new Map({
-          basemap: "arcgis-topographic" // Basemap layer service
-      });
-      const view = new MapView({
-        map: map,
-        center: [-118.805, 34.027], // Longitude, latitude
-        zoom: 13, // Zoom level
-        container: "viewDiv" // Div element
-      });
-      });
-      </script>
-      
+     </style>
       <form id="form" autocomplete="off">
         <fieldset> 
           <legend>GIS Widget Properties</legend>
